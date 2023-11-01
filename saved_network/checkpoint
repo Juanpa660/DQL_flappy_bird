@@ -1,0 +1,2 @@
+model_checkpoint_path: "flappy-dqn-24999"
+all_model_checkpoint_paths: "flappy-dqn-24999"
