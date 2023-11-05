@@ -4,8 +4,6 @@ Welcome to the Flappy Bird DQL (Deep Q-Learning) Agent repository! This project 
 
 ![Training Progress](imgs/flappy.jpg)
 
-*Click on the image to watch a video of the DQL agent in action.*
-
 ## Features
 
 - **Deep Q-Learning (DQL) Algorithm**: At the core of this project is the DQL algorithm, which enables the agent to learn optimal actions based on state inputs by using a deep neural network.
@@ -25,26 +23,19 @@ To run this project, you'll need the following Python version and libraries:
 5. matplotlib==3.3.4
 6. numpy==1.19.5
 
-## Results
-
-The results section will detail the performance of the DQL agent throughout its training process. The agent's score progression over time will be plotted to illustrate improvements and learning stability.
-
 ## Training
+blablabla..
 
-![Training Progress](imgs/diagra_cnn.png)
+![CNN architecture](imgs/diagra_cnn.png)
 
 ### Results
 
 During training, the agent interacted with the Flappy Bird environment, with each game episode providing a sequence of states, actions, and rewards. The plot below shows the score per episode over the training period.
 
-[![Flappy Bird DQL](imgs/flappy_bird_dql.png)](https://youtu.be/link_to_demo_video)
+![Plot Reward](imgs/flappy_reward.png)
 
 ### Personal Record Beating Attempt
 
 After sufficient training, the DQL agent was set to the task of beating my personal best score. The attempt was recorded and is available for viewing:
 
-[![Personal Record Attempt](imgs/personal_record_attempt.png)](https://youtu.be/link_to_record_beating_video)
-
-### Training the DQL Agent
-
-Navigate to the `src` directory and execute the following command to start training the agent:
+[![Personal Record Attempt](imgs/flappy2.jpg)](https://youtu.be/EvDPlhKY_xo)
