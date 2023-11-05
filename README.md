@@ -24,7 +24,9 @@ To run this project, you'll need the following Python version and libraries:
 6. numpy==1.19.5
 
 ## Training
-blablabla..
+The DQL model processes a sequence of four grayscale frames from the game as input, providing a temporal snapshot to inform decision-making. These frames pass through three convolutional layers, each designed to extract and condense spatial features from raw pixels to complex patterns, with dimensionality reduction occurring at each step.
+
+The convolutional layers are followed by three fully connected layers that integrate these features into a high-level representation. The output layer, consisting of two neurons with a softmax activation, yields the probabilities of the two possible actions: "jump" or "do not jump". This architecture enables the DQL model to interpret visual data and learn action strategies through reinforcement learning, aiming to maximize game scores. The model's architecture can be visualized in the following image:
 
 ![CNN architecture](imgs/diagra_cnn.png)
 
@@ -36,6 +38,7 @@ During training, the agent interacted with the Flappy Bird environment, with eac
 
 ### Personal Record Beating Attempt
 
-After sufficient training, the DQL agent was set to the task of beating my personal best score. The attempt was recorded and is available for viewing:
+After sufficient training, it was time to take on the formidable challenge of surpassing my personal best score. A milestone I had achieved with countless hours of dedication and a dash of sweat and tears. It was a bittersweet feeling to set my digital protege against a record that represented me. The attempt was recorded and is available for viewing:
 
 [![Personal Record Attempt](imgs/flappy2.jpg)](https://youtu.be/EvDPlhKY_xo)
+*Click on the image to watch a video of the DQL agent in action.*
